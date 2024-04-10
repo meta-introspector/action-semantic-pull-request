@@ -11,4 +11,4 @@ jobs:
   actions-tagger:
     runs-on: ubuntu-latest
     steps:
-      - uses: meta-introspector/actions-tagger@v2
+      - uses: meta-introspector/actions-tagger@main
