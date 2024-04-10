@@ -14,8 +14,8 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: meta-introspector/checkout@v3
+      - uses: meta-introspector/setup-node@v3
         with:
           node-version: 20
       - run: yarn install
